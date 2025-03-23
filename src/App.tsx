@@ -1,4 +1,3 @@
-import React from 'react';
 import { Github, Linkedin, Mail, ExternalLink, Code2, Briefcase, User, ChevronDown } from 'lucide-react';
 
 function App() {
@@ -11,20 +10,20 @@ function App() {
           <div className="inline-block mb-6 relative">
             <div className="absolute inset-0 bg-blue-500/20 blur-xl"></div>
             <h1 className="text-6xl md:text-8xl font-bold bg-gradient-to-r from-blue-500 to-purple-500 text-transparent bg-clip-text relative">
-              John Doe
+              Aman Deep Singh
             </h1>
           </div>
           <p className="text-xl md:text-2xl text-gray-400 mb-12 font-light">
-            Senior Software Engineer
+            Machine Learning Engineer
           </p>
           <div className="flex gap-6 justify-center mb-12">
-            <a href="https://github.com" className="p-3 bg-gray-800/50 rounded-xl hover:bg-gray-700 transition-colors border border-gray-700 hover:border-blue-500/50">
+            <a href="https://github.com/AmanDeepSinghH2" className="p-3 bg-gray-800/50 rounded-xl hover:bg-gray-700 transition-colors border border-gray-700 hover:border-blue-500/50">
               <Github size={24} className="text-blue-400" />
             </a>
             <a href="https://linkedin.com" className="p-3 bg-gray-800/50 rounded-xl hover:bg-gray-700 transition-colors border border-gray-700 hover:border-blue-500/50">
               <Linkedin size={24} className="text-blue-400" />
             </a>
-            <a href="mailto:contact@example.com" className="p-3 bg-gray-800/50 rounded-xl hover:bg-gray-700 transition-colors border border-gray-700 hover:border-blue-500/50">
+            <a href="mailto:amandeepsingh090206@gmail.com" className="p-3 bg-gray-800/50 rounded-xl hover:bg-gray-700 transition-colors border border-gray-700 hover:border-blue-500/50">
               <Mail size={24} className="text-blue-400" />
             </a>
           </div>
@@ -54,9 +53,7 @@ function App() {
                 About Me
               </h2>
               <p className="text-gray-400 mb-8 text-lg leading-relaxed">
-                Senior Software Engineer with 8+ years of experience in developing scalable web applications.
-                Specialized in full-stack development with a focus on React, Node.js, and cloud technologies.
-                Passionate about creating efficient, maintainable code and mentoring junior developers.
+                A motivated Machine Learning Engineer and Computer Science student with extensive knowledge of Python, SQL, and AI technologies. Experienced at crafting solutions with data at the core, with hands-on skills at developing machine learning models and full-stack projects.
               </p>
               <div className="grid grid-cols-2 gap-6">
                 <div className="p-6 bg-gray-800/50 rounded-2xl border border-gray-700">
@@ -91,8 +88,8 @@ function App() {
           <div className="max-w-4xl mx-auto space-y-12">
             <div className="p-8 bg-gray-900 rounded-2xl border border-gray-700 hover:border-blue-500/50 transition-colors">
               <div className="flex flex-col md:flex-row gap-6 justify-between mb-6">
-                <h3 className="text-2xl font-bold">Senior Software Engineer</h3>
-                <p className="text-blue-400">2020 - Present</p>
+                <h3 className="text-2xl font-bold">Sales Management System</h3>
+                <p className="text-blue-400">2023 - Present</p>
               </div>
               <p className="text-xl text-blue-400 mb-4">Tech Solutions Inc.</p>
               <ul className="text-gray-400 space-y-3 list-disc list-inside">
@@ -104,8 +101,8 @@ function App() {
 
             <div className="p-8 bg-gray-900 rounded-2xl border border-gray-700 hover:border-blue-500/50 transition-colors">
               <div className="flex flex-col md:flex-row gap-6 justify-between mb-6">
-                <h3 className="text-2xl font-bold">Software Engineer</h3>
-                <p className="text-blue-400">2018 - 2020</p>
+                <h3 className="text-2xl font-bold">Machine Learning Models</h3>
+                <p className="text-blue-400">2022 - 2023</p>
               </div>
               <p className="text-xl text-blue-400 mb-4">Digital Innovations Ltd</p>
               <ul className="text-gray-400 space-y-3 list-disc list-inside">
@@ -117,12 +114,13 @@ function App() {
 
             <div className="p-8 bg-gray-900 rounded-2xl border border-gray-700 hover:border-blue-500/50 transition-colors">
               <div className="flex flex-col md:flex-row gap-6 justify-between mb-6">
-                <h3 className="text-2xl font-bold">Full Stack Developer</h3>
-                <p className="text-blue-400">2016 - 2018</p>
+                <h3 className="text-2xl font-bold">Feeding Futures</h3>
+                <p className="text-blue-400">2023 - 2027</p>
               </div>
               <p className="text-xl text-blue-400 mb-4">StartUp Hub</p>
               <ul className="text-gray-400 space-y-3 list-disc list-inside">
-                <li>Built responsive web applications using React and Node.js</li>
+                  <li>Feeding futures is a full stack project which helps Mess, hospitals and other venues to provide food for those who are in need, available to all.</li>
+
                 <li>Collaborated with UX team to implement modern design patterns</li>
                 <li>Mentored junior developers in best practices and coding standards</li>
               </ul>
@@ -134,7 +132,9 @@ function App() {
       {/* Projects Section */}
       <section className="py-32 bg-gray-900" id="projects">
         <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-bold mb-16 text-center flex items-center gap-3 justify-center">
+            <h2 className="text-4xl font-bold mb-16 text-center flex items-center gap-3 justify-center">
+              Featured Projects
+
             <Code2 className="text-blue-400" />
             Featured Projects
           </h2>
@@ -148,7 +148,8 @@ function App() {
                 />
               </div>
               <div className="p-8">
-                <h3 className="text-2xl font-bold mb-3">E-commerce Platform</h3>
+                  <h3 className="text-2xl font-bold mb-3">Sales Management System</h3>
+
                 <p className="text-gray-400 mb-6">
                   A full-stack e-commerce platform built with React, Node.js, and PostgreSQL.
                   Features include real-time inventory, payment processing, and admin dashboard.
@@ -181,7 +182,8 @@ function App() {
                 />
               </div>
               <div className="p-8">
-                <h3 className="text-2xl font-bold mb-3">Analytics Dashboard</h3>
+                  <h3 className="text-2xl font-bold mb-3">Student-Grade Prediction Model</h3>
+
                 <p className="text-gray-400 mb-6">
                   Real-time analytics dashboard using React, D3.js, and WebSocket.
                   Visualizes complex data sets with interactive charts and filters.
@@ -214,7 +216,9 @@ function App() {
                 />
               </div>
               <div className="p-8">
-                <h3 className="text-2xl font-bold mb-3">Task Management App</h3>
+                  <h3 className="text-2xl font-bold mb-3">Email-Spam Prediction Model</h3>
+                  <h3 className="text-2xl font-bold mb-3">Feeding Futures</h3>
+
                 <p className="text-gray-400 mb-6">
                   A collaborative task management application with real-time updates.
                   Built using Next.js, TypeScript, and Firebase.
@@ -245,12 +249,16 @@ function App() {
       <section className="py-32 bg-gray-800" id="contact">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-4xl font-bold mb-8">Get In Touch</h2>
-          <p className="text-gray-400 mb-12 max-w-2xl mx-auto text-lg">
+            <p className="text-gray-400 mb-12 max-w-2xl mx-auto text-lg">
+              I'm always interested in hearing about new projects and opportunities.
+              Whether you have a question or just want to say hi, feel free to reach out!
+
             I'm always interested in hearing about new projects and opportunities.
             Whether you have a question or just want to say hi, feel free to reach out!
           </p>
-          <a
-            href="mailto:contact@example.com"
+            <a
+              href="mailto:amandeepsingh090206@email.com"
+
             className="inline-flex items-center gap-2 bg-blue-500 text-white px-8 py-4 rounded-xl hover:bg-blue-600 transition-colors text-lg"
           >
             <Mail size={20} />
@@ -262,7 +270,7 @@ function App() {
       {/* Footer */}
       <footer className="py-8 bg-gray-900 border-t border-gray-800">
         <div className="container mx-auto px-4 text-center text-gray-400">
-          <p>© {new Date().getFullYear()} John Doe. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Aman Deep Singh. All rights reserved.</p>
         </div>
       </footer>
     </div>
