@@ -67,7 +67,7 @@
 
 <h3 align="left">📫 Contact Me</h3>
 
-<p align="left">Feel free to reach out to me via email at <a href="mailto:YOUR_EMAIL_ADDRESS">YOUR_EMAIL_ADDRESS</a>!</p>
+<p align="left">Feel free to reach out to me via email at <a href="mailto:amandeepsingh090206@gmail.com">amandeepsingh090206@gmail.com</a>!</p>
 
 <br>
 
